@@ -2,11 +2,11 @@
 
 Calculator with 🐍 Python3 🌱 PySide6 
 
-<center>
+<div align="center">
 
 ![Screenshot](screenshot.png)
 
-</center>
+</div>
 
 ## Clone from GitHub
 ```bash
