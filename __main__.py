@@ -10,12 +10,15 @@ class Calculator(QMainWindow):
         super().__init__()
 
         loader = QUiLoader()
+        
         self.myUi = loader.load('calculator/app.ui')
         self.myUi.show()
+        
         self.number = ''
         self.operator = ''
         self.firstSide = ''
         self.secondSide = ''
+        
         self.myUi.ButtonNumberOne.clicked.connect(self.setNumberOne)
         self.myUi.ButtonNumberTwo.clicked.connect(self.setNumberTwo)
         self.myUi.ButtonNumberThree.clicked.connect(self.setNumberThree)
